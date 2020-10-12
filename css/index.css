@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Mukta&display=swap" rel="stylesheet">
+: root{
+    --main-color: black;
+    --accent-color: white;
+
+}
+body{
+    max-width: 980px;
+    margin: 
+}
+header.logo {
+
+font-family: "Krona One", sans-serif;
+font-size: 3,5rem;
+text-align: center;
+
+
+}
+
+header .menu-items a {
+display: block;
+text-decoration: uppercase;
+
+header .header-banner {
+    background-image: url(../img/flower.jpg);
+    background-position: centre;
+
+
+
+
+}
+
+
+
+}
+@media (min-width: 769px) {
+    header .header-nav{
+
+    }
+}
+.product-cards img{
+     display:flex;
+     justify-content: space-around;
+}
+@media(min-width: 540px){
+    product-list{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+@media( min-width: 769px) {
+/*Burger menu*/
+  #burger-checkbox {
+      display: none;
+
+  }
+header burger-checkbox(  )
